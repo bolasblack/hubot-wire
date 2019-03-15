@@ -1,0 +1,12 @@
+{
+  "extends": "@c4605/toolconfs/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": false,
+    "declaration": true,
+    "outDir": "lib",
+  },
+  "include": [
+    "src",
+  ],
+}

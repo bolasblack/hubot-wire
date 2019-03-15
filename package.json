@@ -2,34 +2,33 @@
   "name": "hubot-wire",
   "version": "0.0.1",
   "description": "",
-  "main": "./src/wire",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "./lib/wire",
+  "scripts": {},
   "keywords": [
     "hubot",
     "wireapp",
     "wire"
   ],
-  "author": "Jussi Huotari",
+  "author": [
+    "Jussi Huotari",
+    "bolasblack"
+  ],
   "license": "ISC",
   "peerDependencies": {
-    "hubot": "3"
+    "hubot": "^3.3.1"
   },
   "dependencies": {
-    "@wireapp/api-client": "^1.15.22",
-    "@wireapp/core": "^6.3.10",
-    "dotenv": "^6.0.0",
-    "logdown": "^3.2.7",
-    "password-prompt": "^1.0.7",
+    "@types/debug": "^4.1.2",
+    "@types/ramda": "types/npm-ramda#dist",
+    "@types/scoped-http-client": "^0.11.0",
+    "@wireapp/api-client": "^3.3.2",
+    "@wireapp/core": "^8.2.2",
+    "debug": "^4.1.1",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "eslint": "^5.6.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "@c4605/toolconfs": "^0.1.0",
+    "prettier": "^1.16.4",
+    "tslint": "^5.13.1"
   }
 }
