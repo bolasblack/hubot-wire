@@ -1,0 +1,8 @@
+{
+  "extends": "@c4605/toolconfs/tsconfig-node",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "outDir": "lib"
+  },
+  "include": ["src"]
+}

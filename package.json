@@ -1,0 +1,40 @@
+{
+  "name": "hubot-wire",
+  "version": "0.0.2",
+  "description": "A Hubot adapter for Wire",
+  "main": "./lib/wire",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "keywords": [
+    "hubot",
+    "wire"
+  ],
+  "author": "c4605 <bolasblack@gmail.com>",
+  "license": "ISC",
+  "prettier": "@c4605/toolconfs/prettierrc",
+  "peerDependencies": {
+    "hubot": "^3.3.0"
+  },
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/scoped-http-client": "^0.11.0",
+    "@wireapp/api-client": "^9.16.1",
+    "@wireapp/core": "^15.3.0",
+    "@wireapp/store-engine": "^4.3.1",
+    "@wireapp/store-engine-fs": "^2.1.4",
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "@c4605/toolconfs": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "hubot": "^3.3.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  }
+}
