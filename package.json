@@ -1,7 +1,8 @@
 {
   "name": "hubot-wire",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Hubot adapter for Wire",
+  "repository": "https://github.com/bolasblack/hubot-wire",
   "main": "./lib/wire",
   "scripts": {
     "build": "tsc",
